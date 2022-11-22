@@ -1,7 +1,7 @@
 #!groovy
 
-pipeline {
-
+node {
+    agent any
     stages {
         stage('Hello') {
             steps {
