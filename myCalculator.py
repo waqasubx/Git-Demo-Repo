@@ -10,8 +10,8 @@ class cal():
         return self.a/self.b
     def sub(self):
         return self.a-self.b
-a=int(input("Enter first number: "))
-b=int(input("Enter second number: "))
+a=int(1)
+b=int(2)
 obj=cal(a,b)
 choice=1
 while choice!=0:
@@ -20,7 +20,7 @@ while choice!=0:
     print("2. Subtraction")
     print("3. Multiplication")
     print("4. Division")
-    choice=int(input("Enter choice: "))
+    choice=int(1)
     if choice==1:
         print("Result: ",obj.add())
     elif choice==2:
