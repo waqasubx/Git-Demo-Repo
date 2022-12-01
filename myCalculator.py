@@ -14,12 +14,13 @@ a=int(4)
 b=int(2)
 obj=cal(a,b)
 choice=int(1)
+print("0. Exit")
+print("1. Add")
+print("2. Subtraction")
+print("3. Multiplication")
+print("4. Division")
 while choice!=0:
-    print("0. Exit")
-    print("1. Add")
-    print("2. Subtraction")
-    print("3. Multiplication")
-    print("4. Division")
+   
     if choice==1:
         print("Adding two numbers with values as 4, 2 ")
         print("Result: ",obj.add())
