@@ -10,7 +10,7 @@ class cal():
         return self.a/self.b
     def sub(self):
         return self.a-self.b
-a=int(1)
+a=int(4)
 b=int(2)
 obj=cal(a,b)
 choice=1
@@ -24,17 +24,17 @@ while choice!=0:
     if choice==1:
         print("Adding two numbers with values as 4, 2 ")
         print("Result: ",obj.add())
-        choice = choice + 1 
+        choice = 2 
     elif choice==2:
         print("Subtracting two numbers with values as 4, 2 ")
         print("Result: ",obj.sub())
-        choice = choice + 1
+        choice = 3
     elif choice==3:
         print("Multiplying two numbers with values as 4, 2 ")
         print("Result: ",obj.mul())
-        choice = choice + 1
+        choice = 4
     elif choice==4:
-        print("Subtracting two numbers with values as 4, 2 ")
+        print("Dividing two numbers with values as 4, 2 ")
         print("Result: ",round(obj.div(),2))
         choice=0
     elif choice==0:
