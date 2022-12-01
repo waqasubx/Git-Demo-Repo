@@ -24,15 +24,15 @@ while choice!=0:
     if choice==1:
         print("Adding two numbers with values as 4, 2 ")
         print("Result: ",obj.add())
-        choice++
+        choice = choice + 1 
     elif choice==2:
         print("Subtracting two numbers with values as 4, 2 ")
         print("Result: ",obj.sub())
-        choice++
+        choice = choice + 1
     elif choice==3:
         print("Multiplying two numbers with values as 4, 2 ")
         print("Result: ",obj.mul())
-        choice++
+        choice = choice + 1
     elif choice==4:
         print("Subtracting two numbers with values as 4, 2 ")
         print("Result: ",round(obj.div(),2))
