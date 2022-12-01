@@ -22,17 +22,24 @@ while choice!=0:
     print("4. Division")
     choice=int(1)
     if choice==1:
+        print("Adding two numbers with values as 4, 2 ")
         print("Result: ",obj.add())
+        choice++
     elif choice==2:
+        print("Subtracting two numbers with values as 4, 2 ")
         print("Result: ",obj.sub())
+        choice++
     elif choice==3:
+        print("Multiplying two numbers with values as 4, 2 ")
         print("Result: ",obj.mul())
+        choice++
     elif choice==4:
+        print("Subtracting two numbers with values as 4, 2 ")
         print("Result: ",round(obj.div(),2))
+        choice=0
     elif choice==0:
         print("Exiting!")
     else:
         print("Invalid choice!!")
-    choice=0
-         
+    
 print()
